@@ -1,0 +1,22 @@
+{
+  "name": "first-javascript-game",
+  "version": "1.0.0",
+  "description": "***Just open two out of three doors an if you encounter 'THE ROBOT', Then you die😢.***",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:prettier": "prettier --list-different . \"**/*.{html,css,js,json}\" ",
+    "lint": "yarn lint:prettier",
+    "fix": "yarn lint:prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshu010/First-JavaScript-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshu010/First-JavaScript-Game/issues"
+  },
+  "homepage": "https://github.com/himanshu010/First-JavaScript-Game#readme"
+}
